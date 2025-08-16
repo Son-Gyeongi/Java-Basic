@@ -8,7 +8,6 @@ public class MusicPlayerMain3 {
 
     public static void main(String[] args) {
         MusicPlayerData data = new MusicPlayerData();
-
         // 음악 플레이어 켜기
         on(data);
         // 볼륨 증가
@@ -23,6 +22,9 @@ public class MusicPlayerMain3 {
         off(data);
     }
 
+    /*
+    static은 객체 생성 없이 메서드 호출 가능
+     */
     static void on(MusicPlayerData data) {
         data.isOn = true;
         System.out.println("음악 플레이어를 시작합니다.");
