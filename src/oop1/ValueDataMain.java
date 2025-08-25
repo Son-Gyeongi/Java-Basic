@@ -2,6 +2,7 @@ package oop1;
 
 public class ValueDataMain {
 
+    // 정적 메서드는 정적 메서드만 호출할 수 있다.
     public static void main(String[] args) {
         ValueData valueData = new ValueData();
         add(valueData);
