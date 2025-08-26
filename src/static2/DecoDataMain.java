@@ -23,7 +23,7 @@ public class DecoDataMain {
 
         // 추가
         System.out.println("4. 외부에서 참조값을 넘겨준다.");
-        staticCall(data1);
+        DecoData.staticCall(data1);
 
         // 추가
         System.out.println("5. 정적 메서드를 호출할 때 2가지 방법");
