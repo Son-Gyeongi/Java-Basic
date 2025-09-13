@@ -1,4 +1,4 @@
-package poly.ex.pay1_my;
+package poly.ex.pay1;
 
 public interface Pay {
     boolean pay(int amount);
